@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+
+    @screen sm {
+      max-width: 100%; /* full width on small screens */
+    }
+    @screen md {
+      max-width: 768px; /* width less than medium screen */
+    }
+    @screen lg {
+      max-width: 992px; /* width less than large screen */
+    }
+    @screen xl {
+      max-width: 1200px; /* width less than extra large screen */
+    }
+    @screen 2xl {
+      max-width: 1400px; /* width less than 2xl screen */
+    }
+  }
+}
