@@ -29,4 +29,3 @@ A countdown timer app built with React, offering personalized countdowns for bir
    ```bash
    git clone https://github.com/your-username/react-timer-app.git
    cd react-timer-app
-=======
